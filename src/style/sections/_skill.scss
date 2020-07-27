@@ -6,9 +6,9 @@
   );
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  padding: 15rem 0 10rem 0;
-  margin-top: -10rem;
-  margin-bottom: -1px;
+  padding: 5rem 0 10rem 5rem;
+  margin-top: 0rem;
+  margin-bottom: 5px;
   color: $white-color;
 
   @include respond(tab-land) {
@@ -24,7 +24,7 @@
     backface-visibility: hidden;
 
     &__text {
-      margin-bottom: 2.5 rem;
+      margin-bottom: 5 rem;
     }
 
     &__text,
